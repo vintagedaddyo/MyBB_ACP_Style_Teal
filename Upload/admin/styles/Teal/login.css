@@ -1,0 +1,190 @@
+/**
+ *
+ * MyBB: Teal - Admin CP
+ *
+ * Filename: login.css
+ *
+ * Style Author: Wage & Vintagedaddyo
+ *
+ * W Site: http://community.mybb.com/user-78269.html
+ * V Site: http://community.mybb.com/user-6029.html
+ *
+ * MyBB Version: 1.8.x
+ *
+ * Style Version: 1.1
+ * 
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #fff;
+    word-wrap: break-word;
+}
+
+::selection {
+    color: #fff;
+    text-shadow: none;
+    background: rgba(255, 255, 255, .2);
+}
+
+::-moz-selection {
+    color: #fff;
+    text-shadow: none;
+    background: rgba(255, 255, 255, .2);
+}
+
+body {
+    margin: 0;
+    font: 16px/26px "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+    background: #181818;
+    display: flex;
+    height: 100vh;
+}
+
+input,
+select,
+textarea,
+button {
+    font: 16px "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+a:link,
+a:visited {
+    color: #008080;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #fff;
+}
+
+a:focus,
+button:focus {
+    outline: 0;
+}
+
+#container {
+    width: 90%;
+    max-width: 500px;
+    float: none;
+    margin: 100px auto;
+}
+
+#logo h1 {}
+
+#header h1 a {
+    color: transparent;
+}
+
+#header a {
+    background: url(./images/logo.png) 10px center no-repeat;
+    height: 82px;
+    display: block;
+    color: #008080;
+    line-height: 40px;
+    padding-left: 50px;
+    border-radius: 3px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#content {
+    margin: 10px 0;
+    border: 1px solid #252525;
+    border-radius: 3px;
+    background-color: #303030;
+}
+
+#content h2 {
+    margin: 15px 15px 0 15px;
+}
+
+.form_container {
+    padding: 5px 15px 15px 15px;
+}
+
+#content p.submit {
+    background: #303030;
+    border-top: 1px solid #252525;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content>p {
+    margin: 10px 15px 0 15px;
+    padding: 0 0 8px;
+    border-bottom: 1px solid #303030;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #008080;
+    display: inline-flex;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    line-height: 26px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.label {
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.text_input {
+    border: 1px solid #252525;
+    padding: 5px 6px;
+    width: 100%;
+    font-size: 16px;
+    outline: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #202020;
+}
+
+input.text_input:focus {
+    border: 1px solid #008080;
+}
+
+#content #message {
+    background-color: #303030;
+    padding: 10px 12px;
+    margin: 10px 15px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    border: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#content #message.success {
+    background-color: #68c000;
+    color: #fff;
+}
+
+.alert,
+#content #message.error {
+    background-color: #eb5257;
+    color: #fff;
+}
+
+.alert {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 3px;
+}
