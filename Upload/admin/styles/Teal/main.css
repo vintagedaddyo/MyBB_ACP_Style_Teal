@@ -57,7 +57,7 @@ a:hover {
 }
 
 #logo {
-	background: url(images/logo.png) #181818 15px 15px no-repeat;
+	background: url('images/logo.png') #181818 15px 15px no-repeat;
 	height: 90px;
 }
 
@@ -85,19 +85,19 @@ a:hover {
 #welcome .logout {
 	margin-left: 4px;
 	padding: 0 18px 2px 0;
-	background: url(images/icons/logout.png) no-repeat top right;
+	background: url('images/icons/logout.png') no-repeat top right;
 }
 
 #welcome .forum {
 	margin-left: 4px;
 	padding: 1px 0 2px 20px;
-	background: url(images/icons/world.png) no-repeat top left;
+	background: url('images/icons/world.png') no-repeat top left;
 }
 
 #welcome .username {
 	margin-left: 4px;
 	padding: 0 0 2px 18px;
-	background: url(images/icons/user.png) no-repeat top left;
+	background: url('images/icons/user.png') no-repeat top left;
 }
 
 /* Menu */
@@ -651,11 +651,11 @@ input.submit_button:hover {
 }
 
 .form_button_wrapper {
-    padding: 3px;
+	padding: 3px;
 	margin-top: 5px;
 	text-align: center;
-/*	
-    border: 1px solid #282828;
+/*
+	border: 1px solid #282828;
 	background: #252525;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -682,7 +682,7 @@ input.submit_button:hover {
 
 input.button_yes,
 input.button_yes:hover {
-	background: #008080;
+	background: #303030;
 	border: none;
 	color: #fff;
 	padding: 4px 6px;
@@ -692,7 +692,7 @@ input.button_yes:hover {
 
 input.button_no,
 input.button_no:hover {
-	background: #008080;
+	background: #303030;
 	border: none;
 	color: #fff;
 	padding: 4px 6px;
@@ -973,8 +973,8 @@ ul.tabs li a.active {
 .user_avatar {
     height: 80px;
     width: 80px;
-    background: #303030;
-    border: 1px solid #252525;
+    background: #202020;
+    border: 1px solid #202020;
     float: left;
     clear: left;
     margin-right: 5px;
@@ -1137,7 +1137,6 @@ input.image_button {
 input.search_button {
 	background: #008080;
 	border: 0px;
-	margin-top: 4px;
 	padding: 4px;
 	font-size: 14px;
 	font-family: 'Lucida Grande', 'Trebuchet MS', Verdana, Sans-Serif;
@@ -1469,5 +1468,6 @@ input.search_button:hover {
 
     ul.tabs li a.active  {
     	-webkit-border-radius: 5px 5px 5px 5px !important;
-    }     
-}
+    } 
+    
+}   

@@ -5,6 +5,7 @@ Teal ACP Style v1.1
 
 This a simple ACP Style for MyBB enthusiasts.
 
+For the the frontend theme based on this visit: https://github.com/vintagedaddyo/MyBB_Theme_Teal
 
 Teal ACP Style v1.1
 » Installation:
@@ -24,6 +25,7 @@ Teal ACP Style v1.1
 » Changelog:
 
 History:
+03/19/2022 — Quick revist via 1830
 04/09/2016 — Minor style changes made to main.css and login.css
 11/26/2015 — ACP Style initial creation
 
